@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PEOPLE'S</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="Gowun-font navbar navbar-expand-md bg-white fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="text-decoration-none">
+                <h1 class="m-0 display-5 font-weight-semi-bold">
+                    <span class="font-weight-bold px-3 mr-1">P'</span>
+                </h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <div class="navbar-nav me-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active text-black">Home</a>
+                    <a href="people.html" class="nav-item nav-link text-black">People</a>
+                    <a href="register.html" class="nav-item nav-link text-black">Register</a>
+                </div>
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="login.html" class="nav-item nav-link text-black">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+    <div class="container py-5">
+        <!-- section1 --> 
+        <section id="person-of-the-year" class="mb-5">
+            <h2 class="text-center">Person of the Year</h2>
+            <p class="Gowun-font text-center mb-5">올해 가장 인기가 많았던 모델들</p>
+            <div class="row g-4 Gowun-font">
+                <!-- 모델 카드 -->
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model1-1">
+                        <img src="./img/pro1-1.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">강민수</h5>
+                            <p class="card-text">패션쇼 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model1-2">
+                        <img src="./img/pro1-2.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">윤서영</h5>
+                            <p class="card-text">광고 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model1-3">
+                        <img src="./img/pro1-3.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">이진</h5>
+                            <p class="card-text">잡지 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model1-4">
+                        <img src="./img/pro1-4.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">안경미</h5>
+                            <p class="card-text">연기 부분</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section1 모달 -->
+        <div class="modal fade" id="model1-1" tabindex="-1" aria-labelledby="model1-1" aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-content" >
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model1-1">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro1-1.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 강민수</p>
+                        <p><strong>나이 :</strong> 28</p>
+                        <p><strong>키 :</strong> 182cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">열정적</span>
+                            <span class="badge bg-gray me-1">SEXY</span>
+                            <span class="badge bg-gray me-1">운동</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @minsu
+                            </a>
+                        </p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model1-2" tabindex="-1" aria-labelledby="model1-2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model1-2">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro1-2.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 윤서영</p>
+                        <p><strong>나이 :</strong> 21</p>
+                        <p><strong>키 :</strong> 168cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">적극적</span>
+                            <span class="badge bg-gray me-1">청순</span>
+                            <span class="badge bg-gray me-1">순수한</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @yun04
+                            </a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model1-3" tabindex="-1" aria-labelledby="model1-3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header anton-regular">
+                        <h5 class="modal-title" id="model1-3">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro1-3.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 이진</p>
+                        <p><strong>나이 :</strong> 31</p>
+                        <p><strong>키 :</strong> 185cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">노련한</span>
+                            <span class="badge bg-gray me-1">SEXY</span>
+                            <span class="badge bg-gray me-1">다재다능</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @2_jin
+                            </a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model1-4" tabindex="-1" aria-labelledby="model1-4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header anton-regular">
+                        <h5 class="modal-title" id="model1-4">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro1-4.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 안경미</p>
+                        <p><strong>나이 :</strong> 24</p>
+                        <p><strong>키 :</strong> 172cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">INFP</span>
+                            <span class="badge bg-gray me-1">다양한 표정</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @glasses_me
+                            </a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr >
+        <!-- section1 모달 끝 -->
+
+        <!-- section2 -->
+        <section id="New-Face" class="mb-5">
+            <h2 class="text-center">New Face</h2>
+            <p class="Gowun-font text-center mb-5">어디에서도 보지 못한 새로운 모델들</p>
+            <div class="row g-4 Gowun-font">
+                <!-- 모델 카드 -->
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model2-1">
+                        <img src="./img/pro2-1.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">이연수</h5>
+                            <p class="card-text">패션쇼 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model2-2">
+                        <img src="./img/pro2-2.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">김민수</h5>
+                            <p class="card-text">광고 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model2-3">
+                        <img src="./img/pro2-3.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">화이</h5>
+                            <p class="card-text">잡지 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model2-4">
+                        <img src="./img/pro2-4.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">하미애</h5>
+                            <p class="card-text">연기 부분</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section2 모달 -->
+        <div class="modal fade" id="model2-1" tabindex="-1" aria-labelledby="model2-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model2-1">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro2-1.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 이연수</p>
+                        <p><strong>나이 :</strong> 24</p>
+                        <p><strong>키 :</strong> 178cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">센스왕</span>
+                            <span class="badge bg-gray me-1">단아한</span>
+                            <span class="badge bg-gray me-1">백조</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @yeonsu1
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model2-2" tabindex="-1" aria-labelledby="model2-2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model2-2">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro2-2.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 김민수</p>
+                        <p><strong>나이 :</strong> 25</p>
+                        <p><strong>키 :</strong> 180cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">남성적</span>
+                            <span class="badge bg-gray me-1">배려깊은</span>
+                            <span class="badge bg-gray me-1">친숙한 이미지</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @kimminsu
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model2-3" tabindex="-1" aria-labelledby="model2-3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model2-3">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro2-3.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 화이</p>
+                        <p><strong>나이 :</strong> 26</p>
+                        <p><strong>키 :</strong> 178cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">우아한</span>
+                            <span class="badge bg-gray me-1">체조선수</span>
+                            <span class="badge bg-gray me-1">화장품 모델</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @hwa2
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model2-4" tabindex="-1" aria-labelledby="model2-4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model2-4">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro2-4.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 하미애</p>
+                        <p><strong>나이 :</strong> 31</p>
+                        <p><strong>키 :</strong> 165cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">일본어 가능</span>
+                            <span class="badge bg-gray me-1">관능적</span>
+                            <span class="badge bg-gray me-1">ESTP</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @memeae
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- section2 모달 끝 -->
+        
+        <!-- section3 -->   
+        <section id="Hot-Face" class="mb-5">
+            <h2 class="text-center">HOT Face</h2>
+            <p class="Gowun-font text-center mb-5">오늘 하루동안 광고주들이 자주 본 모델들</p>
+            <div class="row g-4 Gowun-font">
+                <!-- 모델 카드 -->
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model3-1">
+                        <img src="./img/pro3-1.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">하유민</h5>
+                            <p class="card-text">패션쇼 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model3-2">
+                        <img src="./img/pro3-2.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">권민</h5>
+                            <p class="card-text">광고 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model3-3">
+                        <img src="./img/pro3-3.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">웅이</h5>
+                            <p class="card-text">잡지 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model3-4">
+                        <img src="./img/pro3-4.jpg" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">이유미</h5>
+                            <p class="card-text">연기 부분</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section3 모달 -->
+        <div class="modal fade" id="model3-1" tabindex="-1" aria-labelledby="model3-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model3-1">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro3-1.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 하유민</p>
+                        <p><strong>나이 :</strong> 28</p>
+                        <p><strong>키 :</strong> 177cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">아련한</span>
+                            <span class="badge bg-gray me-1">매혹적인</span>
+                            <span class="badge bg-gray me-1">인어공주</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @youminha
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model3-2" tabindex="-1" aria-labelledby="model3-2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular " id="model3-2">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro3-2.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 권민</p>
+                        <p><strong>나이 :</strong> 26</p>
+                        <p><strong>키 :</strong> 184cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">말상</span>
+                            <span class="badge bg-gray me-1">구릿빛 피부</span>
+                            <span class="badge bg-gray me-1">회사 CEO상</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @kwan_min
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model3-3" tabindex="-1" aria-labelledby="model3-3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model3-3">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro3-3.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 웅이</p>
+                        <p><strong>나이 :</strong> 28</p>
+                        <p><strong>키 :</strong> 181cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">교회 오빠</span>
+                            <span class="badge bg-gray me-1">혼혈</span>
+                            <span class="badge bg-gray me-1">흰 피부</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @woong_2
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model3-4" tabindex="-1" aria-labelledby="model3-4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model3-4">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro3-4.jpg" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 이유미</p>
+                        <p><strong>나이 :</strong> 21</p>
+                        <p><strong>키 :</strong> 156cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">친근한</span>
+                            <span class="badge bg-gray me-1">반전 매력</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @you_me
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- section3 모달 끝 -->
+
+        <!-- section4 -->
+        <section id="Potential-Face" class="mb-5">
+            <h2 class="text-center">Potential Face</h2>
+            <p class="Gowun-font text-center mb-5">잠재적인 능력이 있지만 아직 알려지지 않은 모델들</p>
+            <div class="row g-4 Gowun-font">
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model4-1">
+                        <img src="./img/pro4-1.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">반영수</h5>
+                            <p class="card-text">패션쇼 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model4-2">
+                        <img src="./img/pro4-2.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">이서윤</h5>
+                            <p class="card-text">광고 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model4-3">
+                        <img src="./img/pro4-3.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">이하늘</h5>
+                            <p class="card-text">잡지 부분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#model4-4">
+                        <img src="./img/pro4-4.png" class="card-img-top" alt="모델">
+                        <div class="card-body">
+                            <h5 class="card-title">박석민</h5>
+                            <p class="card-text">연기 부분</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 모달 4-1 -->
+        <div class="modal fade" id="model4-1" tabindex="-1" aria-labelledby="model4-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model4-1">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro4-1.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 반영수</p>
+                        <p><strong>나이 :</strong> 25</p>
+                        <p><strong>키 :</strong> 178cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">파워 워킹</span>
+                            <span class="badge bg-gray me-1">큰 체격</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @youngsu_
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="model4-2" tabindex="-1" aria-labelledby="model4-2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model4-2">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro4-2.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름:</strong> 이서윤</p>
+                        <p><strong>나이:</strong> 23</p>
+                        <p><strong>키:</strong> 170cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">매료시키는</span>
+                            <span class="badge bg-gray me-1">구미호</span>
+                            <span class="badge bg-gray me-1">여우상</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @2222_seo
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model4-3" tabindex="-1" aria-labelledby="model4-3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model4-2">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro4-3.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 이하늘</p>
+                        <p><strong>나이 :</strong> 28</p>
+                        <p><strong>키 :</strong> 172cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">창의적 포즈</span>
+                            <span class="badge bg-gray me-1">우아한</span>
+                            <span class="badge bg-gray me-1">전직 아이돌</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @two_sky
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="model4-4" tabindex="-1" aria-labelledby="model4-4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title anton-regular" id="model4-4">Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body Gowun-font">
+                        <img src="./img/pro4-4.png" class="img-fluid mb-3" alt="모델 사진">
+                        <p><strong>이름 :</strong> 박석민</p>
+                        <p><strong>나이 :</strong> 23</p>
+                        <p><strong>키 :</strong> 193cm</p>
+                        <p><strong>키워드 :</strong> 
+                            <span class="badge bg-gray me-1">농구부</span>
+                            <span class="badge bg-gray me-1">로코</span>
+                        </p>
+                        <p><strong>연락망 : </strong> 
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                <i class="bi bi-instagram"></i> @stone_min
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 페이지네이션 -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="bg-white">
+        <div class="home-contact container text-center">
+            <h5>문의 사항</h5>
+            <p>문의사항이 있으신가요? 아래 연락처로 문의해주세요</p>
+            <hr>
+            <p><i class="bi bi-compass"></i> 105-1 hangang Street, Seoul, Republic of Korea</p>
+            <p><i class="bi bi-envelope"></i> peopleS@company.com</p>
+            <p><i class="bi bi-telephone"></i> 02-456-7890</p>
+            <hr>
+            <p>소셜 미디어</p>
+            <a href="https://www.instagram.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-instagram"></i> Instagram <!-- 링크 수정 부분 -->
+            </a>
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-facebook"></i> Facebook <!-- 링크 수정 부분 -->
+            </a>
+            <a href="https://twitter.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-twitter"></i> Twitter <!-- 링크 수정 부분 -->
+            </a>
+            <hr>
+            <i class="mt-3 mb-4 text-black-50">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by 박송희</i>
+        </div>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PEOPLE'S</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-light" data-bs-target="#nav-menu">
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md bg-white fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="text-decoration-none">
+                <h1 class="m-0 display-5 font-weight-semi-bold">
+                    <span class="font-weight-bold px-3 mr-1">P'</span>
+                </h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <div class="navbar-nav Gowun-font me-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active text-black">Home</a>
+                    <a href="people.html" class="nav-item nav-link text-black">People</a>
+                    <a href="register.html" class="nav-item nav-link text-black">Register</a>
+                </div>
+                <div class="navbar-nav Gowun-font ms-auto py-0">
+                    <a href="login.html" class="nav-item nav-link text-black">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+    <!--헤더 영역 시작-->
+    <header id="header-carousel" class="carousel slide mx-auto" style="max-width: 1903px;" data-bs-ride="carousel">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 600px;">
+                    <img class="img-fluid w-100" src="./img/banner1.jpg" alt="Image" style="object-fit: cover; height: 100%;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3 text-center" style="max-width: 700px;">
+                            <h2 class="text-light text-uppercase font-weight-semi-bold mb-2">PEOPLE'S</h2>
+                            <h4 class="display-4 text-white font-weight-semi-bold mb-4">NEW</h4>
+                            <a href="people.html#New-Face" class="btn btn-light py-2 px-3">바로가기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 600px;">
+                    <img class="img-fluid w-100" src="./img/banner2.jpg" alt="Image" style="object-fit: cover; height: 100%;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3 text-center" style="max-width: 700px;">
+                            <h2 class="text-light text-uppercase font-weight-semi-bold mb-2">PEOPLE'S</h2>
+                            <h4 class="display-4 text-white font-weight-semi-bold mb-4">HOT</h4>
+                            <a href="people.html#Hot-Face" class="btn btn-light py-2 px-3">바로가기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- 헤더 영역 끝 -->
+
+    <!--menu 선택-->
+    <section class="bg-white container-fluid overflow-hidden py-5" id="portfolio">
+        <div class="contact-service text-center py-3 mb-5">
+            <h2>Category</h2>
+        </div>
+        <div class="row mb-5 g-4">
+            <!-- 카드 1 -->
+            <div class="col-md-6">
+                <a href="people.html#person-of-the-year" class="text-decoration-none">
+                    <div class="card-hover card-person shadow rounded h-100 d-flex flex-column justify-content-between p-4">
+                        <div>
+                            <h3 class="fw-bold">Person of the Year</h3>
+                            <p>올해 가장 인기가 많았던 모델들을 모아놨습니다. 경력이 있고 뛰어난 사람을 원한다면 CLICK!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <!-- 카드 2 -->
+            <div class="col-md-6">
+                <a href="people.html#New-Face" class="text-decoration-none">
+                    <div class="card-hover card-newface shadow rounded h-100 d-flex flex-column justify-content-between p-4">
+                        <div>
+                            <h3 class="fw-bold">NEW FACE</h3>
+                            <p>어디에서도 보지 못한 새로운 모델의 포트폴리오에 관심이 있다면 CLICK!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <!-- 카드 3 -->
+            <div class="col-md-6">
+                <a href="people.html#Hot-Face" class="text-decoration-none">
+                    <div class="card-hover card-hotface shadow rounded h-100 d-flex flex-column justify-content-between p-4">
+                        <div>
+                            <h3 class="fw-bold">HOT FACE</h3>
+                            <p>오늘 하루동안 광고주들이 자주 본 모델들을 알고싶다면 CLICK!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <!-- 카드 4 -->
+            <div class="col-md-6">
+                <a href="people.html#Potential-Face" class="text-decoration-none">
+                    <div class="card-hover card-potential shadow rounded h-100 d-flex flex-column justify-content-between p-4">
+                        <div>
+                            <h3 class="fw-bold">POTENTIAL FACE</h3>
+                            <p>잠재적인 능력이 있지만 아직 알려지지 않은 모델들을 알고싶다면 CLICK!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="casting-audition-section py-5" id="casting-audition">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title"> 캐스팅 & 오디션 </h2>
+                <p class="section-info">현재 진행 중인 캐스팅 및 오디션 정보를 확인하세요</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped table-bordered casting-audition-table">
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>오디션/캐스팅 이름</th>
+                            <th>장소</th>
+                            <th>날짜</th>
+                            <th>상태</th>
+                            <th>클릭</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2024 OOO쇼 오디션</td>
+                            <td>서울, 대한민국</td>
+                            <td>2024-12-29</td>
+                            <td><span class="badge bg-success">진행 중</span></td>
+                            <td>
+                                <a href="#offcanvas-info-1" data-bs-toggle="offcanvas">
+                                <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>▢▢▢ 광고 캐스팅</td>
+                            <td>경기, 대한민국</td>
+                            <td>2025-01-20</td>
+                            <td><span class="badge bg-success">진행 중</span></td>
+                            <td>
+                                <a href="#offcanvas-info-2" data-bs-toggle="offcanvas">
+                                <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>△△회사 광고 모델 오디션</td>
+                            <td>서울, 대한민국</td>
+                            <td>2025-03-10</td>
+                            <td><span class="badge bg-success">진행 중</span></td>
+                            <td>
+                                <a href="#offcanvas-info-3" data-bs-toggle="offcanvas">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>지역 캠페인 단역 오디션 </td>
+                            <td>전북, 대한민국</td>
+                            <td>2024-12-20</td>
+                            <td><span class="badge bg-warning">마감 임박</span></td>
+                            <td>
+                                <a href="#offcanvas-info-4" data-bs-toggle="offcanvas">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>패션 잡지 모델 캐스팅</td>
+                            <td>경상, 대한민국</td>
+                            <td>2024-12-20</td>
+                            <td><span class="badge bg-warning">마감 임박</span></td>
+                            <td>
+                                <a href="#offcanvas-info-5" data-bs-toggle="offcanvas">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>▢▢▢▢▢ 드라마 단역 모집</td>
+                            <td>경기, 대한민국</td>
+                            <td>2024-11-25</td>
+                            <td><span class="badge bg-danger">마감</span></td>
+                            <td>
+                                <a href="#offcanvas-info-6" data-bs-toggle="offcanvas">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>▢▢ 소속사 신인 배우 모집</td>
+                            <td>서울, 대한민국</td>
+                            <td>2024-10-03</td>
+                            <td><span class="badge bg-danger">마감</span></td>
+                            <td>
+                                <a href="#offcanvas-info-7" data-bs-toggle="offcanvas">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offcanvas #1 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-1" aria-labelledby="offcanvasLabel1">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel1">2024 OOO쇼 오디션</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 1114-1 OOO빌딩, 동대문, 서울, 대한민국</p>
+            <p><strong>날짜 :</strong> 2024-12-29</p>
+            <p><strong>상태 :</strong> 진행 중</p>
+            <p><strong>참가비 :</strong> 100,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name1" placeholder="이름을 입력하세요" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email1" placeholder="이메일을 입력하세요" required>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple>
+                </div>
+                <button type="submit" class="btn btn-primary">지원하기</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #2 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-2" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">▢▢▢ 광고 캐스팅</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 57-3 OO플라자, 성남, 경기, 대한민국</p>
+            <p><strong>날짜 :</strong> 2025-01-20</p>
+            <p><strong>상태 :</strong> 진행 중</p>
+            <p><strong>참가비 :</strong> 150,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name1" placeholder="이름을 입력하세요" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email1" placeholder="이메일을 입력하세요" required>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple>
+                </div>
+                <button type="submit" class="btn btn-primary">지원하기</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #3 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-3" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">△△회사 광고 모델 오디션</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 362 ▢▢빌딩, 여의도, 서울, 대한민국</p>
+            <p><strong>날짜 :</strong> 2025-03-10</p>
+            <p><strong>상태 :</strong> 진행 중</p>
+            <p><strong>참가비 :</strong> 50,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name1" placeholder="이름을 입력하세요" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email1" placeholder="이메일을 입력하세요" required>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple>
+                </div>
+                <button type="submit" class="btn btn-primary">지원하기</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #4 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-4" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">지역 캠페인 단역 오디션</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 41-5 00자치단체, 전주, 전북, 대한민국</p>
+            <p><strong>날짜 :</strong> 2024-12-20</p>
+            <p><strong>상태 :</strong> 마감 임박</p>
+            <p><strong>참가비 :</strong> 10,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name1" placeholder="이름을 입력하세요" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email1" placeholder="이메일을 입력하세요" required>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple>
+                </div>
+                <button type="submit" class="btn btn-primary">지원하기</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #5 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-5" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">패션 잡지 모델 캐스팅</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 472-10 OOOO상가, 부산, 경상, 대한민국</p>
+            <p><strong>날짜 :</strong> 2024-12-20</p>
+            <p><strong>상태 :</strong> 마감 임박</p>
+            <p><strong>참가비 :</strong> 200,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name1" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name1" placeholder="이름을 입력하세요" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email1" placeholder="이메일을 입력하세요" required>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple>
+                </div>
+                <button type="submit" class="btn btn-primary">지원하기</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #6 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-6" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">▢▢▢▢▢ 드라마 단역 모집</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 19-521 OOO빌, 수원, 경기, 대한민국</p>
+            <p><strong>날짜 :</strong> 2024-11-25</p>
+            <p><strong>상태 :</strong> 마감</p>
+            <p><strong>참가비 :</strong> 100,000원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name2" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name2" placeholder="이름을 입력하세요" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="email2" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email2" placeholder="이메일을 입력하세요" disabled>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple disabled>
+                </div>
+                <button type="submit" class="btn btn-secondary" disabled>지원 마감</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Offcanvas #7 -->
+    <div class="Gowun-font offcanvas offcanvas-end" tabindex="-1" id="offcanvas-info-7" aria-labelledby="offcanvasLabel2">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLabel2">▢▢ 소속사 신인 배우 모집</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p><strong>장소 :</strong> 22-1 △△빌딩, 용산, 서울, 대한민국</p>
+            <p><strong>날짜 :</strong> 2024-10-03</p>
+            <p><strong>상태 :</strong> 마감</p>
+            <p><strong>참가비 :</strong> 0원</p>
+            <p><strong>참고자료 :</strong> https://ooo.com </p>
+            <hr class="mb-4">
+            <h4 class="Gowun-font mb-4">참가 신청</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name2" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name2" placeholder="이름을 입력하세요" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="email2" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email2" placeholder="이메일을 입력하세요" disabled>
+                </div>
+                <div class="mb-4">
+                    <label for="photo" class="form-label">사진</label>
+                    <input class="form-control" type="file" id="photo" multiple disabled>
+                </div>
+                <button type="submit" class="btn btn-secondary" disabled>지원 마감</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="bg-white">
+        <div class="home-contact container text-center">
+            <h5>문의 사항</h5>
+            <p>문의사항이 있으신가요? 아래 연락처로 문의해주세요</p>
+            <hr>
+            <p><i class="bi bi-compass"></i> 105-1 hangang Street, Seoul, Republic of Korea</p>
+            <p><i class="bi bi-envelope"></i> peopleS@company.com</p>
+            <p><i class="bi bi-telephone"></i> 02-456-7890</p>
+            <hr>
+            <p>소셜 미디어</p>
+            <a href="https://www.instagram.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-instagram"></i> Instagram <!-- 링크 수정 부분 -->
+            </a>
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-facebook"></i> Facebook <!-- 링크 수정 부분 -->
+            </a>
+            <a href="https://twitter.com/your-profile" target="_blank" class="social-link">
+                <i class="bi bi-twitter"></i> Twitter <!-- 링크 수정 부분 -->
+            </a>
+            <hr>
+            <i class="mt-3 mb-4 text-black-50">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by 박송희</i>
+        </div>
+    </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

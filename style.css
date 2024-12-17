@@ -1,0 +1,338 @@
+.nav-link:hover,
+.nav-link.active {
+    color: #0e72ff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+.anton-regular {
+    font-family: 'Anton', serif;
+}
+
+.Gowun-font{
+    font-family: "Gowun Dodum", sans-serif;
+}
+
+h1{
+    color: rgb(14, 82, 255);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.contact-service h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050; /* 다른 콘텐츠보다 위로 올라오게 설정 */
+    background-color: white;
+}
+
+/* 각 카드별 배경 이미지 */
+.card-hover {
+    background-color: white;
+    color: gray;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 카드 마우스 호버 효과 */
+.card-hover:hover {
+    transform: scale(1.05); /* 카드 확대 효과 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* 그림자 강조 */
+}
+
+/* 카드 내부의 그라데이션 */
+.card-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, rgba(14, 82, 255, 0.2), rgba(94, 94, 94, 0.2));
+    opacity: 0; /* 초기 투명도 */
+    transition: opacity 0.3s ease;
+    z-index: 0;
+}
+
+.card-hover:hover::before {
+    opacity: 1; /* 호버 시 그라데이션 보이기 */
+}
+
+/* 카드 내용이 앞에 표시되도록 */
+.card-hover > div {
+    position: relative;
+    z-index: 1;
+}
+
+/* 카드 내부 텍스트에도 동일한 효과 */
+.card-hover:hover h3,
+.card-hover:hover p {
+    color: rgb(14, 82, 255); /* 텍스트가 파란색으로 변환 */
+}
+
+/*캐스팅 섹션*/
+.casting-audition-section {
+    background-color: #f4f4f9;
+    padding: 50px 0;
+}
+
+.section-title {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.section-info {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.casting-audition-table {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.casting-audition-table td {
+    text-align: center;
+    font-family: "Gowun Dodum", sans-serif;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.casting-audition-table th {
+    text-align: center;
+    font-family: "Gowun Dodum", sans-serif;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.casting-audition-table thead {
+    background-color: rgb(27, 92, 255);
+    color: #fff;
+}
+
+.casting-audition-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.casting-audition-table tbody tr:hover {
+    background-color: #cae5ff;
+    cursor: pointer;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.bg-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.bg-warning {
+    background-color: #e2a900;
+    color: white;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+#offcanvas-info{
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 1.1rem;
+}
+
+.home-contact {
+    font-family: "Gowun Dodum", sans-serif;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+/*모델들 프로필 나열 페이지*/
+section.mb-5 {
+    margin-top: 70px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* 카드 크기 확대 */
+    transition: transform 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* 카드 hover 시 제목과 텍스트 색상 변경 */
+.card:hover .card-title, 
+.card:hover .card-text {
+    color: rgb(14, 82, 255); /* 파란색으로 변경 */
+    transition: color 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.bg-gray{
+    background-color: #8b8b8b;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+}
+
+.pagination .page-link {
+    color: #72abff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #f8f9fa;
+    border-color: #000000;
+}
+
+
+/*프로필 등록 페이지 관련*/
+.register-body{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.profile-form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 50px; /* Adjust to avoid overlap */
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label{
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 12px;
+    margin-left : 3px;
+}
+
+#photo {
+    opacity: 0.7;
+}
+
+.contact-container {
+    font-family: "Gowun Dodum", sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1em;
+    color: #000;
+}
+
+.social-link i {
+    margin-right: 5px;
+}
+
+.social-link:hover {
+    color: #007bff;
+}
+
+/*login page 관련*/
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.login-title {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*카드 클릭 시 뷰 포인트가 정중앙으로 오도록*/
+
+#person-of-the-year {
+    scroll-margin-top: 50vh; /* 뷰포트 높이의 절반만큼 여백 추가 */
+    padding-top: 10px; /* 내용과 스크롤 여백이 겹치지 않게 함 */
+}
+
+#New-Face{
+    scroll-margin-top: 50vh; /* 뷰포트 높이의 절반만큼 여백 추가 */
+    padding-top: 10px; /* 내용과 스크롤 여백이 겹치지 않게 함 */
+}
+
+#Hot-Face{
+    scroll-margin-top: 50vh; /* 뷰포트 높이의 절반만큼 여백 추가 */
+    padding-top: 10px; /* 내용과 스크롤 여백이 겹치지 않게 함 */
+}
+
+#Potential-Face{
+    scroll-margin-top: 50vh; /* 뷰포트 높이의 절반만큼 여백 추가 */
+    padding-top: 10px; /* 내용과 스크롤 여백이 겹치지 않게 함 */
+}
